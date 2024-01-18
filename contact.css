@@ -1,0 +1,175 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.computer{
+  width: 100%;
+}
+.location1-div{
+  display: flex;
+  flex-direction: column;
+}
+.offices-div{
+  display: flex;
+  flex-direction: column;
+}
+.link-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-top: 43px;
+  cursor: pointer;
+}
+.link-div h4{
+  color: #1B1D23;
+text-align: right;
+font-family: League Spartan;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 138.889% */
+}
+.link-div i{
+  color: #1B1D23;
+}
+.location2-div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.section3-contact{
+  margin-top: 71px;
+  margin-bottom: 73px;
+}
+.section4-contact{
+  display: flex;
+  flex-direction: column;
+}
+.section4-contact-text h1{
+  color: #1B1D23;
+font-family: League Spartan;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 108.333% */
+letter-spacing: -1.714px;
+margin-bottom: 42px;
+}
+.section4-input-div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section4-input-div input{
+  width: 311px;
+  height: 44px;
+  border: none;
+  border-bottom: solid 1px ;
+}
+.section4-input-div input::placeholder{
+  padding-left: 34px;
+}
+textarea{
+  border: none;
+  border-bottom: solid 1px ;
+  height: 68px;
+}
+textarea::placeholder{
+  padding-left: 34px;
+  padding-top: 20px;
+}
+.ltl-input-rect{
+  height: 80px;
+  width: 80px;
+  background-color: #1B1D23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.ltl-input-rect:hover{
+  background-color: #60636D;
+  transition: 0.4s;
+}
+.map-dekstop{
+  display: none;
+}
+@media(width>=740px){
+  .computer-tablet{
+    margin-top: 20px;
+  }
+  .mobile-header{
+    margin-top: -100px;
+  }
+  .section1-about-text{
+    margin-top: -356px;
+    margin-top: 40px;
+  }
+  .location1-div{
+    flex-direction: row;
+  }
+  .location2-div{
+    flex-direction: row;
+    align-items: center;
+  }
+  .section2-text-div{
+    padding-left: 0px;
+  }
+  .section2 p{
+    width: 350px;
+  }
+  .map{
+    width: 572px;
+    height: 560px;
+  }
+  .section4-contact-text h1{
+    font-size: 72px;
+    width: 473px;
+  }
+  .section4-input-div input{
+    width: 572px;
+  }
+}
+@media(width>=1024px){
+  .about-add-tablet{
+    margin-left: -160px;
+  }
+  .section2-text-div{
+    display: flex;
+    flex-direction: row;
+  }
+  .location1-div{
+    flex-direction: column;
+  }
+  .location2-div{
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .link-div{
+    align-self: flex-start;
+    width: 350px;
+  }
+  .mobile-rect{
+    display: none;
+  }
+  .map-dekstop{
+    display: block;
+  }
+  .map{
+    display: none;
+  }
+  .setion4-contact{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+  }
+  .section4-contact-text{
+    width: 350px;
+    font-size: 72px;
+    line-height: 64px;
+  }
+}

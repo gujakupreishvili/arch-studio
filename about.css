@@ -1,0 +1,228 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section1-about{
+  display: flex;
+  flex-direction: column;
+}
+.section1-about-text{
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  background-color: white;
+  z-index: 2;
+  gap: 21px;
+  margin-top: -40px;
+}
+.section1-about-text h1{
+  color: #1B1D23;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -1.2px;
+  width: 311px;
+  margin-top: 65px;
+  padding-left: 32px;
+}
+.section1-about-text p{
+  padding-left: 32px;
+  color: #60636D;
+  font-family: League Spartan;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+.section3-about{
+  margin-top: 112px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 141px;
+}
+.section3-about-text h1{
+  color: #1B1D23;
+  font-family: League Spartan;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700; 
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -1.714px;
+  margin-bottom: 55px;
+}
+.section3-img{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.section3-img h3{
+  color: #1B1D23;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  margin-top: 10px;
+}
+.section3-img p{
+  color: #1B1D23;
+  font-family: League Spartan;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+.img-div{
+  position: relative;
+}
+#linkedin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  display: none;
+}
+#twitter{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50% ,-50%);
+  display: none;
+}
+.jake-richards:hover #twitter {
+  display: block;
+}
+.computer-tablet{
+  display: none;
+}
+.About{
+  display: none;
+}
+.computer-desktop{
+  display: none;
+}
+.about-desktop-img{
+  display: none;
+}
+.about-add-tablet{
+  display: none;
+}
+@media(width>=740px){
+  .computer{
+    display: none;
+  }
+  .mobile-header{
+    margin-top: -200px;
+  }
+  .computer-tablet{
+    display: block;
+  }
+  .section1-about{
+    margin-top: -220px;
+    align-self: flex-start;
+    margin-left: 120px;
+    /* margin-left: -197px; */
+    margin-bottom: 200px;
+  }
+  .section1-about-text{
+    align-self: flex-end;
+    width: 515px;
+    margin-top: -380px;
+  }
+  .section1-about-text h1{
+    margin-top: 0px;
+    font-size: 72px;
+    width: 456px;
+    line-height: 64px;
+    padding-left: 60px;
+  }
+  .section1-about-text p{
+    padding-left: 60px;
+    font-size: 18px;
+    line-height: 24px;
+    width: 455px;
+    
+  }
+  .about-add-tablet{
+    display: block;
+    color: #EEEFF4;
+    text-align: right;
+    font-family: Spartan;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200px; /* 166.667% */
+    letter-spacing: -3px;
+    margin-top: -110px;
+  }
+  .section2{
+    padding-left: 0px;
+  }
+  .section2-welcome{
+    display: none;
+  }
+  .mobile-rect{
+    display: block;
+  }
+  .section3-about{
+    padding-left: 120px;
+  }
+  .section3-img{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer{
+    width: 100%;
+  }
+}
+@media(width>=1024px){
+  .computer-desktop{
+    display: block;
+    width: 635px;
+  }
+  .computer-tablet{
+    display: none;
+  }
+  .section1-about{
+    width: 100%;
+  }
+  .about-add-tablet{
+    align-self: flex-start;
+    font-size: 250px;
+  }
+  .section1-about-text{
+    width: 793px;
+  }
+  .section1-about-text h1,
+  .section1-about-text p{
+    padding-left: 186px;
+    width: 580px;  
+  }
+  .section1-about-text h1{
+    margin-top: 140px;
+  }
+  .section1-about-text{
+    margin-top: -500px;
+  }
+  .about-desktop-img{
+    display: block;
+    height: 568px;
+  }
+  .section2-text-div{
+    margin-top: 0px;
+  }
+  .section3-about{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+  }
+  .section3-about-text h1{
+    width: 446px;
+  }
+
+
+}

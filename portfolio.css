@@ -1,0 +1,282 @@
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-img-div{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 311px;
+}
+.section1-portfolio{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 311px;
+}
+.portfolio-img{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/seraph\ station.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.project-section4{
+  width: 100%;
+}
+.portfolio-img2{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/eebox\ building.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img3{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/federal\ two\ tower.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.portfolio-img4{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/del\ sol.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img5{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/prototype.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img6{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/tower.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img7{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/grand\ hot.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img8{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/nectry\ tower.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img9{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/hypers.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img10{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/xiv\ tower.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img11{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/bank\ tower.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img12{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./mobile-img/first\ \ \ main\ img.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.portfolio-img:hover,
+.portfolio-img2:hover,
+.portfolio-img3:hover,
+.portfolio-img4:hover,
+.portfolio-img5:hover,
+.portfolio-img6:hover,
+.portfolio-img7:hover,
+.portfolio-img8:hover,
+.portfolio-img9:hover,
+.portfolio-img10:hover,
+.portfolio-img11:hover,
+.portfolio-img12:hover {
+  filter: grayscale(87%);
+  transition: 0.3s;
+}
+@media(width>=740px){
+  .mobile-header{
+    margin-top: -230px;
+  }
+  .portfolio-img{
+    margin-top: -240px;
+    background-image: url(./tablet-img/seraph-tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img2{
+    background-image: url(./tablet-img/eebox\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img3{
+    background-image: url(./tablet-img/federal\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img4{
+    background-image: url(./tablet-img/de\ solo\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img5{
+    background-image: url(./tablet-img/prototype\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img6{
+    background-image: url(./tablet-img/tower\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img7{
+    background-image: url(./tablet-img/Grand\ Edelweiss\ Hotel\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img8{
+    background-image: url(./tablet-img/nectry\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img9{
+    background-image: url(./tablet-img/hypers\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img10{
+    background-image: url(./tablet-img/xiv\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img11{
+    background-image: url(./tablet-img/bank\ tablet.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+  .portfolio-img12{
+    background-image: url(./tablet-img/the\ last.png);
+    width: 573px;
+    margin-left: -120px;
+  }
+}
+@media(width>=1024px){
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-img{
+    margin-top: 0px;
+    background-image: url(./desktop-img/portofilio\ img\ desktop1.png);
+    width: 350px;
+    margin-left: 0px;
+    margin-bottom: 32px;
+   
+  }
+  .portfolio-img2{
+    background-image: url(./desktop-img/portfolio\ img\ 2.png);
+    width: 350px;
+    margin-bottom: 32px;
+    
+  }
+  .portfolio-img3{
+    background-image: url(./desktop-img/potyfolio\ img\ 3.png);
+    width: 350px;
+    margin-bottom: 32px;
+  }
+  .portfolio-img-div{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: -240px;
+  }
+  .section1-portfolio{
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 150px; */
+    width: 100%;
+    margin-left: 439px;
+  }
+  .portfolio-img4{
+    background-image: url(./desktop-img/de\ solo\ desktop\ \(1\).png);
+    width: 350px;
+    margin-bottom: 32px;
+    margin-right: 126px;
+  }
+  .portfolio-img5{
+    background-image: url(./desktop-img/proto\ desktop.png);
+    width: 350px;
+    margin-bottom: 32px;
+    margin-right: 126px;
+  }
+  .portfolio-img6{
+    background-image: url(./desktop-img/tower\ desktop.png);
+    width: 350px;
+    margin-bottom: 32px;
+    margin-right: 126px;
+  }
+  .portfolio-img7{
+    background-image: url(./desktop-img/portfolio\ img7.png);
+    width: 350px;
+    margin-bottom: 32px;
+    margin-right: 126px;
+  }
+  .portfolio-img8{
+    background-image: url(./desktop-img/portfolio\ img8.png);
+    width: 350px;
+    margin-bottom: 32px;
+    margin-right: 126px;
+  }
+  .portfolio-img9{
+    background-image: url(./desktop-img/portfolio\ img\ 9.jpg);
+    width: 350px;
+    margin-bottom: 32px;
+    margin-right: 126px;
+  }
+  .portfolio-img10{
+    background-image: url(./desktop-img/portfolio\ img\ 10.png);
+    width: 350px;
+    margin-bottom: 32px;
+    margin-right: 126px;
+  }
+  .portfolio-img11{
+    background-image: url(./desktop-img/portfolio\ img\ 11.jpg);
+    width: 350px;
+    margin-bottom: 32px;
+    margin-right: 126px;
+  }
+  .portfolio-img12{
+    background-image: url(./desktop-img/portfolio\ img\ 12.png);
+    width: 350px;
+    margin-bottom: 32px;
+    margin-right: 126px;
+  }
+}
